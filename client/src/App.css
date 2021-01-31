@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap");
+.App {
+  min-height: 100%;
+  margin: auto;
+  text-align: center;
+  font-family: "Londrina Solid", cursive;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0.5em auto 0 auto;
+  width: 30%;
+  padding-bottom: 0.5em;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 0.5em;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  text-size: 2em;
+
+  /* margin: 0.5em;
+    padding: 0.5em;
+
+    text-align: center; */
+}
+
+input {
+  border-radius: 0.5em;
+  margin: 0 0.5em 0 0.5em;
+  height: 1.5em;
+}
+
+button {
+  font-size: small;
+  border-radius: em;
+  background-color: transparent;
+}
+
+.Form {
+  display: inline-block;
+  padding: 0.2em auto 10em auto;
+  width: 30%;
+}
+
+.Form button {
+  cursor: pointer;
+}

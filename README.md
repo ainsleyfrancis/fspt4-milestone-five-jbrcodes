@@ -35,17 +35,17 @@ This assessment tests your understanding of building a full stack app using Reac
 
 Create a webpage with the following functionality:
 
-- [ ] A list of students.
-- [ ] A form to add new students. There should be fields to input the first and last names, separately.
+- [*] A list of students.
+- [*] A form to add new students. There should be fields to input the first and last names, separately.
   - After submitting the form, the new student should be added to the database and displayed on the page.
-- [ ] Each student can be deleted with a delete button. After clicking on this button, student should be deleted from the database and the updated list of students shown on the page
-- [ ] Style the app to make it look as polished as possible. Bootstrap is already loaded in the index.html file, so you can use it if you want to.
+- [*] Each student can be deleted with a delete button. After clicking on this button, student should be deleted from the database and the updated list of students shown on the page
+- [*] Style the app to make it look as polished as possible. Bootstrap is already loaded in the index.html file, so you can use it if you want to.
 - [ ] (Optional/bonus) Clicking on a student should show the student's profile to the right of the students list. The info to display this profile should be obtained from a fetch request to `/students/:id`
 
 To accomplish this, you will need to:
 
-- [ ] Finish the routes in the API server (`/routes/students.js`).
-- [ ] Finish the front end (`/client/src/`). Create as many components as you need.
+- [*] Finish the routes in the API server (`/routes/students.js`).
+- [*] Finish the front end (`/client/src/`). Create as many components as you need.
 
 ## Guidelines
 
@@ -81,10 +81,10 @@ Give yourself a grade for each question. Explain why you gave yourself that grad
 
 ### 1. API Endpoints & MySQL
 
-- Grade:
-- Explanation:
+- Grade: 3
+- Explanation: I managed to make it work, but did have to check some previous exercises to sort out some bugs
 
 ### 2. Frontend
 
-- Grade:
-- Explanation:
+- Grade: 3
+- Explanation: same as with ### 1
